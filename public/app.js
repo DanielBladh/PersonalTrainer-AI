@@ -11,6 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
       fetch(`/exercises/${selectedMuscle}`)
         .then((response) => response.json())
         .then((data) => {
+          console.log(data);
           displayExercises(data);
         })
         .catch((error) => {
