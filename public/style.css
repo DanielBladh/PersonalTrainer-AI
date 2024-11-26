@@ -1,0 +1,55 @@
+/* Grundläggande stil för hela sidan */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+}
+
+/* Huvudcontainer */
+.container {
+  width: 90%;
+  max-width: 800px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Övningselement */
+.exercise {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #fff;
+}
+
+.exercise h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.exercise p {
+  font-size: 1em;
+  color: #555;
+  margin: 5px 0;
+}
+
+/* Styla rubriker */
+.exercise strong {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Styling för instruktionerna */
+.exercise p:last-child {
+  font-style: italic;
+  color: #777;
+}

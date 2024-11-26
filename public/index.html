@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Personal Trainer AI</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Personal Trainer AI</h1>
+      <label for="muscle-select">Choose a muscle group:</label>
+      <select id="muscle-select">
+        <optgroup label="Chest">
+          <option value="chest">Chest</option>
+        </optgroup>
+        <optgroup label="Back">
+          <option value="lower_back">Lower Back</option>
+          <option value="middle_back">Middle Back</option>
+          <option value="lats">Lats</option>
+        </optgroup>
+        <optgroup label="Legs">
+          <option value="calves">Calves</option>
+          <option value="hamstrings">Hamstrings</option>
+          <option value="glutes">Glutes</option>
+        </optgroup>
+        <optgroup label="Arms">
+          <option value="biceps">Biceps</option>
+          <option value="triceps">Triceps</option>
+          <option value="forearms">Forearms</option>
+        </optgroup>
+        <optgroup label="Core">
+          <option value="abdominals">Abdominals</option>
+        </optgroup>
+      </select>
+      <button id="fetch-exercises">Get Exercises</button>
+      <div id="results"></div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
